@@ -1,0 +1,38 @@
+    <!-- Portfolio Start -->
+    <section id="portfolio-work">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="block">
+                  <div class="portfolio-menu">
+                    <ul>
+                        <li class="filter" data-filter="all">Everything</li>
+                        {% assign filters = site.data.wines | group_by: 'category' %}
+                        {% for filter in filters %}
+                        <li class="filter" data-filter=".{{ filter.name }}">{{ filter.name }}</li>
+                        {% endfor %}          
+                    </ul>
+                  </div>
+                  <div class="portfolio-contant">
+                    <ul id="portfolio-contant-active">
+                      {% for wine in site.data.wines %}
+                        <li class="{{ wine.category }}">
+                          <a href="#">
+                            <img src="{{ wine.img }}" alt="{{ wine.title }}">
+                            <div class="overly">
+                              <div class="position-center">
+                                <h2>{{ wine.title }}</h2>
+                                <p>{{ wine.description }}</p>
+                                
+                              </div>
+                            </div>
+                          </a>
+                      {% endfor %}
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>

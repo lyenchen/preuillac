@@ -1,0 +1,24 @@
+<!-- Portfolio Start -->
+
+    <section id="intro">
+      {% for wine in site.data.wines %}
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div class="block">
+              <div class="section-title">
+                <h2>{{ wine.title }}</h2>
+              </div>
+              <p>{{ wine.description }}</p>
+              <p>{{ wine.content }}</p>
+            </div>
+          </div><!-- .col-md-7 close -->
+          <div class="col-md-5 col-sm-12">
+            <div class="block">
+              <img src="{{ wine.img }}" alt="{{ wine.title }}">
+            </div>
+          </div><!-- .col-md-5 close -->
+        </div>
+      </div>
+      {% endfor %}
+    </section>
