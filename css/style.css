@@ -95,8 +95,15 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start 
 --*/
 #slider {
+<<<<<<< HEAD
   background: url("../img/background.png") repeat;
   background-size: 100% 100%;
+=======
+  background: url("../img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  width: auto;
+  height: auto;
+>>>>>>> 2c0fb7a023c1c31a1af2f5b776fbd85e7834ba0b
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
