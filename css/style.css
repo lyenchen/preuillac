@@ -63,7 +63,7 @@ a:active {
 	Header Start 
 --*/
 header {
-  background: #fff;
+  /*background: #fff;*/
   padding: 20px 0;
 }
 header .navbar {
@@ -81,9 +81,14 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: white;
   padding: 10px 26px;
-  font-size: 15px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  font-family: 'Volkhov', serif;
+  font-variant: small-caps;
+  font-style bold;
+  font-size: 32px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -91,19 +96,19 @@ font header .navbar-default .navbar-nav li a:hover {
 /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+/*
+  Background
+*/
+#background {
+  background: url("../img/background.png");
+  background-repeat: repeat;
+}
 /*--
 	Slider Start 
 --*/
 #slider {
-<<<<<<< HEAD
-  background: url("../img/background.png") repeat;
-  background-size: 100% 100%;
-=======
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
-  width: auto;
-  height: auto;
->>>>>>> 2c0fb7a023c1c31a1af2f5b776fbd85e7834ba0b
   background-attachment: fixed;
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
