@@ -6,6 +6,7 @@
 	Common Css
 --*/
 body {
+  background-image: url("../img/background.png");
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
