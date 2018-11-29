@@ -84,7 +84,7 @@ header .navbar-default .navbar-nav {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 header .navbar-default .navbar-nav li a {
   color: white;
@@ -94,7 +94,7 @@ header .navbar-default .navbar-nav li a {
   font-family: 'Volkhov', serif;
   font-variant: small-caps;
   font-style bold;
-  font-size: 32px;
+  font-size: 28px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
