@@ -63,13 +63,15 @@ a:active {
 /*--
 	Header Start 
 --*/
+@media (min-width: 1024px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
 }
 header .navbar {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   border: 0px;
+  float: none;
 }
 header .navbar-brand {
   padding-top: 5px;
@@ -98,6 +100,7 @@ header .navbar-default .navbar-nav li a {
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
+}
 }
 /*---------------------------------------------
 					Index Start 
