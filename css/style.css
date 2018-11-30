@@ -63,7 +63,7 @@ a:active {
 /*--
 	Header Start 
 --*/
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
@@ -97,6 +97,42 @@ header .navbar-default .navbar-nav li a {
   font-variant: small-caps;
   font-style bold;
   font-size: 28px;
+}
+font header .navbar-default .navbar-nav li a:hover {
+  color: #000;
+}
+}
+
+@media (max-width: 1000px) {
+header {
+  /*background: #fff;*/
+  padding: 10px 0;
+}
+header .navbar {
+  margin-bottom: 5px;
+  border: 0px;
+  float: none;
+}
+header .navbar-brand {
+  padding-top: 5px;
+}
+header .navbar-default {
+  background: none;
+  border: 0px;
+}
+header .navbar-default .navbar-nav {
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+header .navbar-default .navbar-nav li a {
+  color: white;
+  padding: 15px 15px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  font-family: 'Volkhov', serif;
+  font-variant: small-caps;
+  font-style bold;
+  font-size: 20px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
