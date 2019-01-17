@@ -1,0 +1,16 @@
+<div class="col-md-2 col-sm-12"></div>
+<div class="col-md-2 col-sm-12">
+<div class="nav-side-menu">
+	{% for item in site.data.sidebarlist.toc %}
+	{% if item.title == page.title %}
+		<div class="menu-list">
+			<ul id="menu-content" class="menu-content">	
+				{% for entry in item.subfolderitems %}
+					<li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+				{% endfor %}
+		</ul>
+	</div>
+	{% endif %}
+	{% endfor %}
+</div>
+</div>

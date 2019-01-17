@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(http://fonts.googleapis.com/css?family=Cinzel:400);
+@import url(http://fonts.googleapis.com/css?family=Cormorant+Garamond);
+
 /* var text-decoration */
 /*--
 	Common Css
@@ -16,14 +19,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cinzel';
 }
 h2 {
   font-size: 30px;
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
 }
 p {
@@ -56,22 +59,25 @@ a:active {
 }
 --*/
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
-  color: #666;
+  font-family: 'Cormorant', serif;
+  font-style: regular;
+  color: #FFFFFF;
 }
 /*--
 	Header Start 
 --*/
-@media (min-width: 1000px) {
+@media (min-width: 767px) {
 header {
-  /*background: #fff;*/
   padding: 10px 0;
+}
+header .navbar .navbar-nav {
+  text-align: center;
+  display: inline-block;
+  float: none;
 }
 header .navbar {
   margin-bottom: 5px;
   border: 0px;
-  float: none;
 }
 header .navbar-brand {
   padding-top: 5px;
@@ -81,29 +87,38 @@ header .navbar-default {
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
   color: white;
-  padding: 15px 20px;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  font-family: 'Volkhov', serif;
+  font-family: 'Cinzel', serif;
   font-variant: small-caps;
   font-style bold;
-  font-size: 28px;
+  font-size: 26px;
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+
+header .dropdown:hover .dropdown-menu {
+  display: block;
+  background: transparent;
+}
+
+header .dropdown .dropdown-menu li a {
+  border: none;
+  font-family: 'Cinzel', serif;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+header .navbar-default .navbar-nav li a:hover {
+  color: #E0C187;
+}
+header .dropdown .dropdown-menu li a:hover {
+  background: transparent;
 }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
@@ -134,10 +149,11 @@ header .navbar-default .navbar-nav li a {
   font-style bold;
   font-size: 20px;
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+header .navbar-default .navbar-nav .dropdown-menu li a:hover {
+  color: #E0C187;
 }
 }
+
 /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -242,25 +258,124 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start 
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 10px 0;
 }
 #intro .block h2 {
+  font-family: 'Cinzel';
+  font-style: bold;
+  color: #FFFFFF;
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
+#intro .block h3 {
+  font-family: 'Cinzel';
+  font-style: italic;
+  color: #FFFFFF;
+  padding-top: 40px;
+  line-height: 24px;
+  margin: 0;
+}
+#intro .block h4 {
+  font-family: 'Cinzel';
+  color: #FFFFFF;
+  padding-top: 10px;
+  line-height: 24px;
+  margin: 0;
+}
 #intro .block p {
-  color: #7B7B7B;
+  font-family: 'Cormorant';
+  font-size: 20px;
+  color: #FFFFFF;
   padding-top: 20px;
+  text-align: justify;
 }
 #intro .block img {
-  padding-left: 40px;
+  padding-top: 40px;
+  float: center;
   width: 100%;
 }
 #intro .section-title {
   margin-bottom: 0px;
 }
 #intro .section-title p {
+  padding-top: 20px;
+}
+/*--
+  nav-side-menu start
+--*/
+.nav-side-menu {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  font-family: 'Cinzel';
+  position: fixed;
+  height: 100%;
+  line-height: 50px;
+}
+
+.nav-side-menu ul li a {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.nav-side-menu li a:hover {
+  color: #E0C187;
+}
+
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+    text-align: left;
+  }
+}
+
+/*--
+  minisection Start 
+--*/
+#appellation, #vineyard, #viticulture, #grapes, #vinification, #woodenvats, #oakbarrels {
+  padding: 10px 0;
+}
+.block h2 {
+  font-family: 'Cinzel';
+  font-style: bold;
+  color: #FFFFFF;
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0;
+}
+.block h3 {
+  font-family: 'Cinzel';
+  font-style: italic;
+  color: #FFFFFF;
+  padding-top: 40px;
+  line-height: 24px;
+  margin: 0;
+}
+.block h4 {
+  font-family: 'Cinzel';
+  color: #FFFFFF;
+  padding-top: 10px;
+  line-height: 24px;
+  margin: 0;
+}
+.block p {
+  font-family: 'Cormorant';
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-top: 20px;
+  text-align: justify;
+}
+.block img {
+  padding-top: 40px;
+  float: center;
+  width: 100%;
+}
+.section-title {
+  margin-bottom: 0px;
+}
+.section-title p {
   padding-top: 20px;
 }
 /*--
@@ -462,13 +577,13 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start 
 --*/
 #global-header {
-  background: url("../img/slider-bg2.jpg") no-repeat;
+  background: url("../img/signboard.jpg") no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding: 200px 0 280px 0;
   position: relative;
   background-attachment: fixed;
 }
+
 #global-header:before {
   content: "";
   position: absolute;
@@ -478,7 +593,6 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.8;
 }
 /*--background: linear-gradient(to left, #928dab, #1f1c2c 70%);--*/
 
@@ -848,7 +962,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	slider-contact Start 
 --*/
 #slider-contact {
-  background: url("../img/slider-bg2.jpg") no-repeat;
+  background: url("../img/signboard.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -1015,15 +1129,16 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start 
 --*/
 footer {
-  background: #F5F5F5;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  /*background: #F5F5F5;*/
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
 }
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #919191;
+  color: #FFFFFF;
 }
 footer a {
   color: #595959;
