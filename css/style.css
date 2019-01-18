@@ -9,6 +9,7 @@
 	Common Css
 --*/
 body {
+  width: 100%;
   background-image: url("../img/background.png");
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -66,14 +67,14 @@ a:active {
 /*--
 	Header Start 
 --*/
-@media (min-width: 767px) {
+@media (min-width: 1240px) {
 header {
   padding: 10px 0;
 }
 header .navbar .navbar-nav {
   text-align: center;
   display: inline-block;
-  float: none;
+  float: right;
 }
 header .navbar {
   margin-bottom: 5px;
@@ -81,6 +82,7 @@ header .navbar {
 }
 header .navbar-brand {
   padding-top: 5px;
+  float: left;
 }
 header .navbar-default {
   background: none;
@@ -113,38 +115,41 @@ header .dropdown .dropdown-menu li a {
 header .navbar-default .navbar-nav li a:hover {
   color: #E0C187;
 }
-header .dropdown .dropdown-menu li a:hover {
-  background: transparent;
-}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1240px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
 }
+header .navbar .navbar-nav {
+  text-align: center;
+  display: inline-block;
+  float: none;
+}
 header .navbar {
   margin-bottom: 5px;
   border: 0px;
-  float: none;
 }
 header .navbar-brand {
   padding-top: 5px;
+  float: left;
 }
+
 header .navbar-default {
   background: none;
   border: 0px;
 }
 header .navbar-default .navbar-nav {
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 header .navbar-default .navbar-nav li a {
   color: white;
-  padding: 15px 15px;
+  padding: 10px 10px;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  font-family: 'Volkhov', serif;
+  font-family: 'Cinzel', serif;
   font-variant: small-caps;
   font-style bold;
   font-size: 20px;
@@ -305,9 +310,9 @@ header .navbar-default .navbar-nav .dropdown-menu li a:hover {
   nav-side-menu start
 --*/
 .nav-side-menu {
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   overflow: auto;
   font-family: 'Cinzel';
   position: fixed;
@@ -324,10 +329,10 @@ header .navbar-default .navbar-nav .dropdown-menu li a:hover {
   color: #E0C187;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1240px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
 
