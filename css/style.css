@@ -69,18 +69,13 @@ a:active {
 --*/
 @media (min-width: 1240px) {
 header {
-  width: 100%;
   padding: 10px 0;
+  padding-left: 5px;
 }
 header .navbar .navbar-nav {
-  text-align: center;
-  display: inline-block;
+  position: relative;
   float: none;
-  /*--float: right;--*/
-}
-header .navbar-header {
   text-align: center;
-  display: inline-block;
 }
 header .navbar {
   margin-bottom: 5px;
@@ -88,7 +83,6 @@ header .navbar {
 }
 header .navbar-brand {
   padding-top: 5px;
-  /*--float: left;--*/
 }
 header .navbar-default {
   background: none;
@@ -98,7 +92,9 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
+  display: inline-block;
   color: white;
+  text-align: center;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   font-family: 'Cinzel', serif;
@@ -106,12 +102,10 @@ header .navbar-default .navbar-nav li a {
   font-style bold;
   font-size: 26px;
 }
-
 header .dropdown:hover .dropdown-menu {
   display: block;
   background: transparent;
 }
-
 header .dropdown .dropdown-menu li a {
   border: none;
   font-family: 'Cinzel', serif;
@@ -129,6 +123,7 @@ header {
   padding: 10px 0;
 }
 header .navbar .navbar-nav {
+  width: 100%;
   text-align: center;
   display: inline-block;
   float: none;
@@ -141,7 +136,6 @@ header .navbar-brand {
   padding-top: 5px;
   /*--float: left;--*/
 }
-
 header .navbar-default {
   background: none;
   border: 0px;
@@ -162,6 +156,14 @@ header .navbar-default .navbar-nav li a {
 }
 header .navbar-default .navbar-nav .dropdown-menu li a:hover {
   color: #E0C187;
+}
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+header .navbar-default .navbar-nav li a {
+  padding: 5px 5px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: 14px;
 }
 }
 /*----
