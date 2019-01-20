@@ -1,0 +1,19 @@
+---
+layout: default
+title: Gallery
+---
+
+	{% include gallery-cellar.html %}
+
+$(document).ready(function() {
+ 
+  var owl = $("#gallery-caro");
+ 
+  owl.owlCarousel({
+    navigation : true,
+    singleItem : true,
+    transitionStyle : "fade"
+  });
+ 
+});
+
