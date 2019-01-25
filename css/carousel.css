@@ -88,7 +88,7 @@
 
 .circle-container {
   border-radius: 100%;
-  background-image: url("/img/bottle1.png");
+  background-image: url("../img/bottle1.png");
   background-repeat: no-repeat;
   background-position: center; 
   position: relative;

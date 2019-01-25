@@ -91,7 +91,7 @@ var s,
       return check;
     }
 
-    clickEvent = mobilecheck() ? 'touchstart' : 'click';
+    /*clickEvent = mobilecheck() ? 'touchstart' : 'click';
 
     $.each(s.$nodes, function (i) {
       var $this = $(this);
@@ -109,7 +109,7 @@ var s,
         clearCarousel(i);
         smallCarousel.getRotate(s.$nodes.eq(i), i);
       });
-    });
+    });*/
 
     var animloop = function (currentSlide) {
       if (s.$isAuto) {

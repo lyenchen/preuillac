@@ -9,7 +9,7 @@ description:
   <div class="container">
       <ul class="circle-container">
         {% for vintage in site.data.wines %}
-          <li class="item"><a href="{{ vintage.location }}" type="application/pdf">{{ vintage.year }}</a></li>
+          <li class="item"><a href="{{ site.base.url }}{{ vintage.location }}" target="_blank">{{ vintage.year }}</a></li>
         {% endfor %}
       </ul>
   </div>
