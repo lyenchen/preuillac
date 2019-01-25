@@ -8,13 +8,12 @@
   text-align: center;
 }
 #sync1 .item img {
-  margin: 5px;
+  margin-right: 5px;
   height: auto;
   width: 100%;
-  align-self: center;
 }
 #sync2 .item {
-  padding: 10px 0px;
+  padding: 10px 10px;
   margin: 5px;
   color: #FFF;
   border-radius: 3px;
@@ -52,4 +51,119 @@
 }
 #sync1.owl-theme .owl-next {
   right: 10px;
+}
+
+#carousel {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 650px;
+  perspective: 250px;
+  transform-style: preserve-3d;
+}
+
+.item {
+  width: 50%;
+  text-align: center;
+  display: block;
+  position: absolute;
+  height: 650px;
+  transition: all 500ms ease;
+  opacity: .9;
+  transform: perspective(-200px);
+}
+.item.one {
+  transform: translateX(0%) translateZ(-100px);
+}
+.item.two {
+  transform: translateX(50%) translateZ(0px);
+}
+.item.three {
+  transform: translateX(100%) translateZ(-100px);
+}
+.item.one, .item.three {
+  opacity: 0.5;
+}
+
+
+.circle-container {
+  border-radius: 100%;
+  background-image: url("/img/bottle1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  width: 45em;
+  height: 45em;
+  display: block;
+  border: 1px solid #323a45;
+  margin: 2em auto;
+}
+.circle-container > * {
+  display: table;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4em;
+  height: 4em;
+  margin-top: -2em;
+  margin-left: -2em;
+  text-align: center;
+  -moz-transition: -moz-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  -o-transition: -o-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  -webkit-transition: -webkit-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  transition: transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+}
+.circle-container a {
+  background: #323a45;
+  border-radius: 100%;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.2em;
+  outline: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -moz-transition: background 400ms ease-in-out, -moz-transform 200ms ease;
+  -o-transition: background 400ms ease-in-out, -o-transform 200ms ease;
+  -webkit-transition: background 400ms ease-in-out, -webkit-transform 200ms ease;
+  transition: background 400ms ease-in-out, transform 200ms ease;
+}
+.no-touch .circle-container a:hover {
+  background: #e6282b;
+}
+.circle-container a:active {
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.circle-container a:focus {
+  background: #e6282b;
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.active {
+  background: #e6282b !important;
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

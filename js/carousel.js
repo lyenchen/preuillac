@@ -76,5 +76,6 @@ $(document).ready(function () {
     var number = $(this).index();
     sync1.data('owl.carousel').to(number, 300, true);
   });
+
 });
 //# sourceURL=pen.js

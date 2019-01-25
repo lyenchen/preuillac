@@ -1,23 +1,27 @@
 [
 {
 	"category": "Château PREUILLAC",
-	"img": "img/wines/wine1.jpg",
-	"title": "Château PREUILLAC",
-	"description": "After the harvests, carried out exclusively by hand, begins the long labour of \"orchestration\" to compose the best possible wine - balanced, harmonious and allowing the fruit its fullest expression. At the end of the process, the wines of Château Preuillac are powerful, robust and rich in flavours, with hints of toast, vanilla, very ripe red fruit and leather…",
-	"content": "50% Merlot, 48% Cabernet Sauvignon, 2% Cabernet Franc"
+	"year": "2008",
+	"location": "https://drive.google.com/file/d/1HgdREVeOfYByRSMStAJlS5T5-C-K2FXW/view?usp=sharing",
 },
 {
-	"category": "emotion PREUILLAC",
-	"img": "img/wines/wine2.jpg",
-	"title": "emotion PREUILLAC",
-	"description": "\"The incomparable thrill of getting so much out of a terroir that seems so austere at first sight; the wonderful sensation of working purely for pleasure, without any other guide than the quest for excellence; the exaltation that comes from giving our very best, day after day; finally, the emotion we share with others when we taste the wine and its expression of all that passion. Many and varied are the emotions that make up this micro-cuvée shaped by the craftsman's skill and the soils of the Médoc, this earth that is always so generous as long as we are generous in return.\" - J.C. Mau",
-	"content": "70% Cabernet Sauvignon, 28% Merlot, 2% Cabernet Franc"
+	"category": "Château PREUILLAC",
+	"year": "2009",
+	"location": "/assets/ChÉteau Preuillac 2008-EN.pdf",
 },
 {
-	"category": "Esprit de PREUILLAC",
-	"img": "img/wines/wine3.jpg",
-	"title": "Esprit de PREUILLAC",
-	"description": "Second wine of Château Preuillac",
-	"content": "60% Cabernet Sauvignon, 40% Merlot"
+	"category": "Château PREUILLAC",
+	"year": "2010",
+	"location": "/assets/ChÉteau Preuillac 2008-EN.pdf",
+},
+{
+	"category": "Château PREUILLAC",
+	"year": "2011",
+	"location": "/assets/ChÉteau Preuillac 2008-EN.pdf",
+},
+{
+	"category": "Château PREUILLAC",
+	"year": "2012",
+	"location": "/assets/ChÉteau Preuillac 2008-EN.pdf",
 }
 ]

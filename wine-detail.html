@@ -1,0 +1,17 @@
+---
+layout: carousel
+title: Wine Detail
+description: 
+---
+
+
+<section>
+  <div class="container">
+      <ul class="circle-container">
+        {% for vintage in site.data.wines %}
+          <li class="item"><a href="{{ vintage.location }}" type="application/pdf">{{ vintage.year }}</a></li>
+        {% endfor %}
+      </ul>
+  </div>
+</section>
+<script src="js/circular.js"></script>
