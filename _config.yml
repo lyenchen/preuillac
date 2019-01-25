@@ -17,7 +17,7 @@ title: Château Preuillac
 email: lyenchen@yahoo.com
 description: "Great Château, Great Wine"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lyenchen.github.io/preuillac" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lyenchen.github.io/preuillac/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
