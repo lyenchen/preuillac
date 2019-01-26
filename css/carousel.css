@@ -53,6 +53,7 @@
   right: 10px;
 }
 
+@media (min-width: 1240px) {
 #carousel {
   display: block;
   position: relative;
@@ -61,8 +62,18 @@
   perspective: 250px;
   transform-style: preserve-3d;
 }
-
-#carousel .item {
+}
+@media (max-width: 1240px) {
+#carousel {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  perspective: 150px;
+  transform-style: preserve-3d;
+}
+}
+.item {
   width: 50%;
   text-align: center;
   display: block;
@@ -72,20 +83,20 @@
   opacity: .9;
   transform: perspective(-200px);
 }
-#carousel .item.one {
+.item.one {
   transform: translateX(0%) translateZ(-100px);
 }
-#carousel .item.two {
+.item.two {
   transform: translateX(50%) translateZ(0px);
 }
-#carousel .item.three {
+.item.three {
   transform: translateX(100%) translateZ(-100px);
 }
-#carousel .item.one, .item.three {
+.item.one, .item.three {
   opacity: 0.5;
 }
 
-
+@media (min-width: 1240px) {
 .circle-container {
   border-radius: 100%;
   background-image: url("../img/bottle1.png");
@@ -98,6 +109,22 @@
   border: 1px solid #323a45;
   margin: 2em auto;
 }
+}
+@media (max-width: 1240px) {
+.circle-container {
+  border-radius: 100%;
+  background-image: url("../img/bottle1.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  width: 30em;
+  height: 30em;
+  display: block;
+  border: 1px solid #323a45;
+  margin: 2em auto;
+}
+}
+
 .circle-container > * {
   display: table;
   position: absolute;
