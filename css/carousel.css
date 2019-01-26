@@ -1,18 +1,18 @@
 #sync1 {
   width: 100%;
 }
-#sync1 .item {
+#sync1 .gallery_item {
   margin: 5px;
   color: #FFF;
   border-radius: 3px;
   text-align: center;
 }
-#sync1 .item img {
+#sync1 .gallery_item img {
   margin-right: 5px;
   height: auto;
   width: 100%;
 }
-#sync2 .item {
+#sync2 .gallery_item {
   padding: 10px 10px;
   margin: 5px;
   color: #FFF;
@@ -20,10 +20,10 @@
   text-align: center;
   cursor: pointer;
 }
-#sync2 .item h1 {
+#sync2 .gallery_item h1 {
   font-size: 18px;
 }
-#sync2 .current .item {
+#sync2 .current .gallery_item {
  /**/
 }
 .owl-theme .owl-nav {
@@ -97,7 +97,7 @@
 }
 
 @media (min-width: 1240px) {
-.circle-container {
+#circular .circle-container {
   border-radius: 100%;
   background-image: url("../img/bottle1.png");
   background-repeat: no-repeat;
@@ -108,10 +108,11 @@
   display: block;
   border: 1px solid #323a45;
   margin: 2em auto;
+
 }
 }
 @media (max-width: 1240px) {
-.circle-container {
+#circular .circle-container {
   border-radius: 100%;
   background-image: url("../img/bottle1.png");
   background-repeat: no-repeat;
@@ -125,7 +126,7 @@
 }
 }
 
-.circle-container > * {
+#circular .circle-container > * {
   display: table;
   position: absolute;
   top: 50%;
@@ -140,7 +141,7 @@
   -webkit-transition: -webkit-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
   transition: transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
 }
-.circle-container a {
+#circular .circle-container a {
   background: #323a45;
   border-radius: 100%;
   color: #fff;
@@ -158,23 +159,24 @@
   -webkit-transition: background 400ms ease-in-out, -webkit-transform 200ms ease;
   transition: background 400ms ease-in-out, transform 200ms ease;
 }
-.no-touch .circle-container a:hover {
+#circular .no-touch .circle-container a:hover {
   background: #e6282b;
 }
-.circle-container a:active {
+#circular .circle-container a:active {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.circle-container a:focus {
+#circular .circle-container a:focus {
   background: #e6282b;
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.active {
+
+#circular .active {
   background: #e6282b !important;
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -182,14 +184,14 @@
   transform: scale(1.1);
 }
 
-* {
+#circular * {
   margin: 0;
   padding: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-*:before, *:after {
+#circular *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

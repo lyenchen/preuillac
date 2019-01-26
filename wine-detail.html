@@ -5,8 +5,8 @@ description:
 ---
 
 
-<section>
-  <div class="container">
+<section id="circular">
+  <div class="container-fluid">
       <ul class="circle-container">
         {% for vintage in site.data.wines %}
           <li class="item"><a href="{{ site.url }}{{ vintage.location }}" target="_blank">{{ vintage.year }}</a></li>
