@@ -62,7 +62,7 @@
   transform-style: preserve-3d;
 }
 
-.item {
+#carousel .item {
   width: 50%;
   text-align: center;
   display: block;
@@ -72,16 +72,16 @@
   opacity: .9;
   transform: perspective(-200px);
 }
-.item.one {
+#carousel .item.one {
   transform: translateX(0%) translateZ(-100px);
 }
-.item.two {
+#carousel .item.two {
   transform: translateX(50%) translateZ(0px);
 }
-.item.three {
+#carousel .item.three {
   transform: translateX(100%) translateZ(-100px);
 }
-.item.one, .item.three {
+#carousel .item.one, .item.three {
   opacity: 0.5;
 }
 
