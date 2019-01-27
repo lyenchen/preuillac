@@ -1,43 +1,7 @@
 [
 {
 	"category": "The Chateau",
-	"img": "/img/gallery/ChÉteau Preuillac 1.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Chateau",
-	"img": "/img/gallery/ChÉteau Preuillac 2.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Chateau",
 	"img": "/img/gallery/ChÉteau Preuillac 3.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Chateau",
-	"img": "/img/gallery/ChÉteau Preuillac 4.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Chateau",
-	"img": "/img/gallery/ChÉteau Preuillac 5.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Chateau",
-	"img": "/img/gallery/ChÉteau Preuillac 6.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Chateau",
-	"img": "/img/gallery/ChÉteau Preuillac 7.jpg",
 	"title": "",
 	"description": ""
 },
@@ -85,19 +49,7 @@
 },
 {
 	"category": "The Cellar",
-	"img": "/img/gallery/Cellar-Harvest period.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Cellar",
 	"img": "/img/gallery/Cellar-New wooden vats in 2018.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Cellar",
-	"img": "/img/gallery/Cellar-Oak barrels 1.jpg",
 	"title": "",
 	"description": ""
 },
@@ -133,12 +85,6 @@
 },
 {
 	"category": "The Harvest",
-	"img": "/img/gallery/Harvest 3.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Harvest",
 	"img": "/img/gallery/Harvest 4.jpg",
 	"title": "",
 	"description": ""
@@ -151,12 +97,6 @@
 },
 {
 	"category": "The Harvest",
-	"img": "/img/gallery/Harvest 6.jpg",
-	"title": "",
-	"description": ""
-},
-{
-	"category": "The Harvest",
 	"img": "/img/gallery/Harvest 7.jpg",
 	"title": "",
 	"description": ""
@@ -164,6 +104,12 @@
 {
 	"category": "The Harvest",
 	"img": "/img/gallery/Harvest 8.jpg",
+	"title": "",
+	"description": ""
+},
+{
+	"category": "The Tasting",
+	"img": "/img/gallery/ChÉteau Preuillac 7.jpg",
 	"title": "",
 	"description": ""
 },
