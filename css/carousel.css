@@ -142,7 +142,7 @@
   transition: transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
 }
 #circular .circle-container a {
-  background: #323a45;
+  background: #6b5010;
   border-radius: 100%;
   color: #fff;
   display: table-cell;
