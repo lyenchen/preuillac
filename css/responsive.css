@@ -16,6 +16,10 @@ px      68    160    252    344    436    528    620    712    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+  header {
+    padding: 10px 0;
+    padding-left: 5px;
+  }
   /*--
 	wrapper Start 
 --*/
@@ -170,6 +174,10 @@ px      68    160    252    */
   }
   p {
     font-size: 13px;
+  }
+  header {
+    padding: 10px 0;
+    padding-left: 2px;
   }
   header .navbar-default .navbar-toggle {
     margin-top: 20px;
