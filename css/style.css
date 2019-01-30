@@ -132,7 +132,7 @@ header .navbar-default .navbar-nav li a {
 header {
   /*background: #fff;*/
   padding: 10px 0;
-  padding-left: 80px;
+  padding-left: 10px;
 }
 header .navbar-default .navbar-nav li a {
   padding: 5px 5px;
@@ -140,12 +140,23 @@ header .navbar-default .navbar-nav li a {
   border-bottom: 1px solid white;
   font-size: 23px;
 }
+header .language-selection {
+  margin-right: 5px;
+}
+header .language-selection ul {
+  background-color: transparent;
+}
+header .language-selection ul a {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
 }
 @media (max-width: 1240px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
-  padding-left: 35px;
+  padding-left: 10px;
 }
 header .navbar .navbar-nav {
   width: 100%;
@@ -181,12 +192,23 @@ header .navbar-default .navbar-nav li a {
 header .navbar-default .navbar-nav .dropdown-menu li a:hover {
   color: #E0C187;
 }
+header .language-selection {
+  margin-right: 5px;
+}
+header .language-selection ul {
+  background-color: transparent;
+}
+header .language-selection ul a {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
 }
 @media (min-width: 992px) and (max-width: 1240px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
-  padding-left: 35px;
+  padding-left: 5px;
 }
 header .navbar-default .navbar-nav li a {
   padding: 5px 5px;
