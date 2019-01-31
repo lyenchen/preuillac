@@ -123,7 +123,6 @@ header .language-selection ul a {
 header {
   /*background: #fff;*/
   padding: 10px 0;
-  padding-left: 2px;
 }
 header .navbar-default .navbar-nav li a {
   padding: 5px 5px;

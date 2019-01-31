@@ -97,9 +97,9 @@
 }
 
 @media (min-width: 1240px) {
-#circular .circle-container {
+#circular .preuillac-container {
   border-radius: 100%;
-  background-image: url("../img/bottle1.png");
+  background-image: url("../img/chateaupreuillac.png");
   background-repeat: no-repeat;
   background-position: center; 
   position: relative;
@@ -108,13 +108,12 @@
   display: block;
   border: 1px solid #323a45;
   margin: 2em auto;
-
 }
 }
 @media (max-width: 1240px) {
-#circular .circle-container {
+#circular .preuillac-container {
   border-radius: 100%;
-  background-image: url("../img/bottle1.png");
+  background-image: url("../img/chateaupreuillac.png");
   background-repeat: no-repeat;
   background-position: center; 
   position: relative;
@@ -126,7 +125,63 @@
 }
 }
 
-#circular .circle-container > * {
+@media (min-width: 1240px) {
+#circular .emotion-container {
+  border-radius: 100%;
+  background-image: url("../img/emotion.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  width: 45em;
+  height: 45em;
+  display: block;
+  border: 1px solid #323a45;
+  margin: 2em auto;
+}
+}
+@media (max-width: 1240px) {
+#circular .emotion-container {
+  border-radius: 100%;
+  background-image: url("../img/emotion.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  width: 30em;
+  height: 30em;
+  display: block;
+  border: 1px solid #323a45;
+  margin: 2em auto;
+}
+}
+@media (min-width: 1240px) {
+#circular .esprit-container {
+  border-radius: 100%;
+  background-image: url("../img/esprit.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  width: 45em;
+  height: 45em;
+  display: block;
+  border: 1px solid #323a45;
+  margin: 2em auto;
+}
+}
+@media (max-width: 1240px) {
+#circular .esprit-container {
+  border-radius: 100%;
+  background-image: url("../img/esprit.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+  width: 30em;
+  height: 30em;
+  display: block;
+  border: 1px solid #323a45;
+  margin: 2em auto;
+}
+}
+#circular .preuillac-container, #circular .emotion-container, #circular .esprit-container > * {
   display: table;
   position: absolute;
   top: 50%;
@@ -136,12 +191,13 @@
   margin-top: -2em;
   margin-left: -2em;
   text-align: center;
-  -moz-transition: -moz-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
-  -o-transition: -o-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
-  -webkit-transition: -webkit-transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
-  transition: transform 1.5s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  -moz-transition: -moz-transform 3s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  -o-transition: -o-transform 3s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  -webkit-transition: -webkit-transform 3s cubic-bezier(0.31, 1.47, 0.475, 1.005);
+  transition: transform 3s cubic-bezier(0.31, 1.47, 0.475, 1.005);
 }
-#circular .circle-container a {
+
+#circular .preuillac-container a, #circular .emotion-container a, #circular .esprit-container a {
   background: #6b5010;
   border-radius: 100%;
   color: #fff;
@@ -159,16 +215,16 @@
   -webkit-transition: background 400ms ease-in-out, -webkit-transform 200ms ease;
   transition: background 400ms ease-in-out, transform 200ms ease;
 }
-#circular .no-touch .circle-container a:hover {
+#circular .no-touch .preuillac-container a:hover, #circular .no-touch .emotion-container a:hover, #circular .no-touch .esprit-container a:hover {
   background: #e6282b;
 }
-#circular .circle-container a:active {
+#circular .preuillac-container a:active, #circular .emotion-container a:active, #circular .esprit-container a:active {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-#circular .circle-container a:focus {
+#circular .preuillac-container a:focus, #circular .emotion-container a:focus, #circular .esprit-container a:focus {
   background: #e6282b;
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);

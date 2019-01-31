@@ -43,5 +43,25 @@
 	"category": "Château PREUILLAC",
 	"year": "2016",
 	"location": "/assets/ChÉteau Preuillac 2016-EN.pdf",
+},
+{
+	"category": "Émotion",
+	"year": "2015",
+	"location": "/assets/Emotion de Prueillac 2015-EN.pdf",
+},
+{
+	"category": "Émotion",
+	"year": "2016",
+	"location": "/assets/Emotion de Prueillac 2016-EN.pdf",
+},
+{
+	"category": "Esprit",
+	"year": "2015",
+	"location": "/assets/Esprit de Prueillac 2015-EN.pdf",
+},
+{
+	"category": "Esprit",
+	"year": "2016",
+	"location": "/assets/Esprit de Prueillac 2016-EN.pdf",
 }
 ]

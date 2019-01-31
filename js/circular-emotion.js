@@ -2,9 +2,9 @@ var s,
   smallCarousel = {
     setting: {
       $wrapper: $('.container'),
-      $container: $('.circle-container'),
-      $nodes: $('.circle-container > .item'),
-      $_nodes: $('.circle-container > .item').length,
+      $container: $('.emotion-container'),
+      $nodes: $('.emotion-container > .item'),
+      $_nodes: $('.emotion-container > .item').length,
       $number: $('.number'),
       $numberItems: $('.number > li'),
       $current: 0,
@@ -140,7 +140,8 @@ var s,
   },
 
   getRotate: function (obj, pos) {
-    var angle = 360 / s.$_nodes,
+    /*var angle = 360 / s.$_nodes,*/
+    var angle = 360 / 5,
     rot = 630, // Starting angle of the first item
     wC = s.$container.width();
 

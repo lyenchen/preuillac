@@ -7,11 +7,11 @@ description:
 
 <section id="circular">
   <div class="container-fluid">
-      <ul class="circle-container">
-        {% for vintage in site.data.wines %}
+      <ul class="preuillac-container">
+        {% for vintage in site.data.wines %}{% if vintage.category == "Château PREUILLAC" %}
           <li class="item"><a href="{{ site.url }}{{ vintage.location }}" target="_blank">{{ vintage.year }}</a></li>
-        {% endfor %}
+        {% endif %}{% endfor %}
       </ul>
   </div>
 </section>
-<script src="js/circular.js"></script>
+<script src="js/circular-preuillac.js"></script>

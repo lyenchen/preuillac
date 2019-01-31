@@ -1,0 +1,17 @@
+---
+layout: carousel
+title: Wine Detail
+description: 
+---
+
+
+<section id="circular">
+  <div class="container-fluid">
+      <ul class="emotion-container">
+        {% for vintage in site.data.wines %}{% if vintage.category == "Émotion" %}
+          <li class="item"><a href="{{ site.url }}{{ vintage.location }}" target="_blank">{{ vintage.year }}</a></li>
+        {% endif %}{% endfor %}
+      </ul>
+  </div>
+</section>
+<script src="js/circular-emotion.js"></script>
