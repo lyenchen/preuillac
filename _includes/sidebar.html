@@ -1,18 +1,19 @@
-
-<div class="container">
-<div class="col-md-2 col-sm-12">
-<div class="nav-side-menu">
-	{% for item in site.data.sidebarlist.toc %}
-	{% if item.title == page.title %}
-		<div class="menu-list">
-			<ul id="menu-content" class="menu-content">	
-				{% for entry in item.subfolderitems %}
-					<li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+<section id="sidebar">
+	<div class="container">
+		<div class="col-md-2 col-sm-2">
+			<div class="nav-side-menu">
+				{% for item in site.data.sidebarlist.toc %}
+				{% if item.title == page.title %}
+				<div class="menu-list">
+					<ul id="menu-content" class="menu-content">	
+						{% for entry in item.subfolderitems %}
+						<li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
 				{% endfor %}
-		</ul>
+			</div>
+		</div>
 	</div>
-	{% endif %}
-	{% endfor %}
-</div>
-</div>
-</div>
+</section>

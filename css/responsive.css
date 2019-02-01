@@ -26,6 +26,12 @@ px      68    160    252    344    436    528    620    712    */
     border-bottom: 1px solid white;
     font-size: 14px;
   }
+  #sidebar .nav-side-menu .menu-list .menu-content {
+    display: block;
+    text-align: right;
+  }
+  #sidebar .nav-side-menu ul li a {
+  font-size: 12px;
   /*--
 	wrapper Start 
 --*/
