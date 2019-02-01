@@ -111,10 +111,7 @@ header .navbar-default .navbar-nav li a:hover {
 header .language-selection {
   margin-right: 5px;
 }
-header .language-selection ul {
-  background-color: transparent;
-}
-header .language-selection ul a {
+header .language-selection a {
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
