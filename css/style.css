@@ -8,8 +8,13 @@
 /*--
   Common Css
 --*/
+html {
+  height: 100%;
+}
+
 body {
   width: 100%;
+  min-height: 100%;
   background-image: url("../img/background.png");
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -281,6 +286,7 @@ header .navbar-default .navbar-nav li a {
 --*/
 #appellation, #vineyard, #viticulture, #grapes, #vinification, #woodenvats, #oakbarrels {
   padding: 10px 0;
+  margin: auto;
 }
 .block h2 {
   font-family: 'Cinzel';
@@ -835,34 +841,15 @@ header .navbar-default .navbar-nav li a {
 --*/
 footer {
   /*background: #F5F5F5;*/
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 50px;
 }
 footer p {
   font-size: 13px;
   line-height: 25px;
   color: #FFFFFF;
-}
-footer a {
-  color: #595959;
-}
-footer .footer-manu {
-  padding-bottom: 25px;
-}
-footer .footer-manu ul {
-  margin: 0px;
-  padding: 0px;
-}
-footer .footer-manu ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-footer .footer-manu ul li a {
-  display: inline-block;
-  color: #494949;
-}
-footer .footer-manu ul li a:hover {
-  color: #000;
 }
