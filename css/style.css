@@ -137,6 +137,7 @@ header .navbar-default .navbar-nav li a {
 #home .container .media {
   height: 600px;
   display: flex;
+  margin-top: -20px;
   align-items: center;
   vertical-align: middle;
 }
