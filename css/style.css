@@ -134,21 +134,13 @@ header .navbar-default .navbar-nav li a {
   font-size: 14px;
 }
 }
-#home {
-  /*position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);*/
-  position: absolute;
-  top: 10%;
-  bottom: 0;
-  left: 0;
-  right: 0;
+#home .container .media {
+  height: 600px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  vertical-align: middle;
 }
+
 /*----
   about
 ----*/
