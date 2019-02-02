@@ -9,7 +9,7 @@ var s,
       $numberItems: $('.number > li'),
       $current: 0,
       $isAuto: true,
-      $acAuto: 1500 },
+      $acAuto: 3000 },
 
 
       init: function () {
