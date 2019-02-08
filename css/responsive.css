@@ -14,7 +14,7 @@
    /* iphone XS 
     @media only screen and (min-device-width : 375px) and (max-device-height : 812px) and (-webkit-device-pixel-ratio : 3) { }
 */
-/* iphone XS Max */
+/* iphone XS Max 
 @media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) { }
 #home .container .media {
   height: 600px;
@@ -23,7 +23,7 @@
   align-items: center;
   vertical-align: middle;
 }
-
+*/
 /*		Default Layout: 992px. 
 		Gutters: 24px.
 		Outer margins: 48px.
