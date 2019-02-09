@@ -27,9 +27,9 @@ px      68    160    252    344    436    528    620    712    */
     font-size: 14px;
   }
   #home .container .media {
-  height: 600px;
+  height: 500px;
   display: flex;
-  margin-top: -20%;
+  margin-top: 0.5em
   align-items: center;
   vertical-align: middle;
   }
@@ -203,9 +203,9 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #home .container .media {
-  height: 600px;
+  height: 400px;
   display: flex;
-  margin-top: -20%;
+  margin-top: 0.5em;
   align-items: center;
   vertical-align: middle;
   }
