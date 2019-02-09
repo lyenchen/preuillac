@@ -1,5 +1,19 @@
 /* iphone XS Max */
-@media only screen and (min-width : 414px) and (max-height : 896px) and (-webkit-device-pixel-ratio : 3) { 
+@media only screen 
+and (min-width : 414px) 
+and (max-height : 896px) 
+and (-webkit-device-pixel-ratio : 3) { 
+#home .container .media {
+  height: 600px;
+  display: flex;
+  margin-top: 0.2em
+  align-items: center;
+  vertical-align: middle;
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
 #home .container .media {
   height: 600px;
   display: flex;
