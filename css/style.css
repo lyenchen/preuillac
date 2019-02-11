@@ -754,7 +754,7 @@ header .navbar-default .navbar-nav li a {
   height: 60px;
   background: #47424C;
   border: none;
-  color: #fff;
+  color: #FFFFFF;
   font-family: 'Cormorant', serif;
   font-size: 18px;
 }
@@ -833,7 +833,7 @@ header .navbar-default .navbar-nav li a {
   text-align: center;
 }
 .heading h2 {
-  color: #000;
+  color: #FFFFFF;
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
@@ -841,7 +841,7 @@ header .navbar-default .navbar-nav li a {
 .heading p {
   font-size: 18px;
   line-height: 40px;
-  color: #292929;
+  color: #FFFFFF;
   font-weight: 300;
 }
 /*---------------------------*/

@@ -77,12 +77,12 @@ px      68    160    252    344    436    528    620    712    */
     width: 68%;
   }
   footer .navbar-default .navbar-nav li a {
-    color: #494949;
+    color: #FFFFFF;
     padding: 10px 10px;
     font-size: 15px;
   }
   footer .navbar-default .navbar-nav li a:hover {
-    color: #000;
+    color: #FFFFFF;
   }
   /*---------------------------------------------
 					Index Close 
