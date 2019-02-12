@@ -18,4 +18,21 @@ toc:
         url: vinification.html#woodenvats
       - page: Oak Barrels
         url: vinification.html#oakbarrels
-        
+  - title: Le Vignoble
+    subfolderitems:
+      - page: L’Appellation
+        url: fr/vineyard.html#appellation
+      - page: Le Vignoble
+        url: fr/vineyard.html#vineyard
+      - page: La Viticulture
+        url: fr/vineyard.html#viticulture
+      - page: Les Cépages
+        url: fr/vineyard.html#grapes
+  - title: La Vinification
+    subfolderitems:
+      - page: La Vinification
+        url: fr/vinification.html#vinification
+      - page: Les cuves en bois
+        url: fr/vinification.html#woodenvats
+      - page: Les fûts de chêne
+        url: fr/vinification.html#oakbarrels
