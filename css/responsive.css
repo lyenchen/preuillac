@@ -209,19 +209,7 @@ px      68    160    252    */
   align-items: center;
   vertical-align: middle;
   }
-  #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
-  }
-  #slider .block {
-    padding-left: 0px;
-  }
-  #slider .block h1 {
-    font-size: 20px;
-  }
-  #slider .block p {
-    font-size: 13px;
-  }
+
   /*--
 	wrapper Start 
 --*/
