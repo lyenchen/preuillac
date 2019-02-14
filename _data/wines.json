@@ -47,12 +47,12 @@
 {
 	"category": "Émotion",
 	"year": "2015",
-	"location": "/assets/Emotion de Prueillac 2015-EN.pdf",
+	"location": "/assets/Emotion Prueillac 2015-EN.pdf",
 },
 {
 	"category": "Émotion",
 	"year": "2016",
-	"location": "/assets/Emotion de Prueillac 2016-EN.pdf",
+	"location": "/assets/Emotion Prueillac 2016-EN.pdf",
 },
 {
 	"category": "Esprit",
@@ -63,5 +63,70 @@
 	"category": "Esprit",
 	"year": "2016",
 	"location": "/assets/Esprit de Prueillac 2016-EN.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2008",
+	"location": "/assets/fr/Château Preuillac 2008-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2009",
+	"location": "/assets/fr/Château Preuillac 2009-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2010",
+	"location": "/assets/fr/Château Preuillac 2010-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2011",
+	"location": "/assets/fr/Château Preuillac 2011-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2012",
+	"location": "/assets/fr/Château Preuillac 2012-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2013",
+	"location": "/assets/fr/Château Preuillac 2013-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2014",
+	"location": "/assets/fr/Château Preuillac 2014-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2015",
+	"location": "/assets/fr/Château Preuillac 2015-FR.pdf",
+},
+{
+	"category": "Château PREUILLAC FR",
+	"year": "2016",
+	"location": "/assets/fr/Château Preuillac 2016-FR.pdf",
+},
+{
+	"category": "Émotion FR",
+	"year": "2015",
+	"location": "/assets/fr/Emotion Preuillac 2015-FR.pdf",
+},
+{
+	"category": "Émotion FR",
+	"year": "2016",
+	"location": "/assets/fr/Emotion Preuillac 2016-FR.pdf",
+},
+{
+	"category": "Esprit FR",
+	"year": "2015",
+	"location": "/assets/fr/Esprit de Preuillac 2015-FR.pdf",
+},
+{
+	"category": "Esprit FR",
+	"year": "2016",
+	"location": "/assets/fr/Esprit de Preuillac 2016-FR.pdf",
 }
 ]

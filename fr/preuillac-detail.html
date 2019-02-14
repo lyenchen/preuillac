@@ -8,7 +8,7 @@ description:
 <section id="circular">
   <div class="container-fluid">
       <ul class="preuillac-container">
-        {% for vintage in site.data.wines %}{% if vintage.category == "Château PREUILLAC" %}
+        {% for vintage in site.data.wines %}{% if vintage.category == "Château PREUILLAC FR" %}
           <li class="item"><a href="{{ site.url }}{{ vintage.location }}" target="_blank">{{ vintage.year }}</a></li>
         {% endif %}{% endfor %}
       </ul>
