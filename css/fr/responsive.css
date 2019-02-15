@@ -12,7 +12,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
-@media only screen and (min-width: 834px) and (max-width: 1024px) {
+@media only screen and (min-width: 1025px) and (max-width: 1112px) {
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -181,7 +181,9 @@ px      68    160    252    344    436    528    620    712    */
 ---------------------------------------------
 cols    1     2      3
 px      68    160    252    */
-@media only screen and (max-width: 833px) {
+@media only screen 
+and (max-width: 1024px) 
+and (orientation : portrait) {
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
@@ -192,7 +194,7 @@ px      68    160    252    */
     font-size: 18px;
   }
   p {
-    font-size: 13px;
+    font-size: 12px;
   }
   header {
     padding: 10px 0;
@@ -203,7 +205,7 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #home .container .media {
-  height: 600px;
+  height: 300px;
   display: flex;
   margin-top: 0.2em;
   align-items: center;
