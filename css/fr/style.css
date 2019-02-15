@@ -157,6 +157,15 @@ header .navbar-default .navbar-nav li a {
   align-items: center;
   vertical-align: middle;
 }
+@media (min-width: 300px) and (max-width: 499px) {
+#home .container .media {
+  height: 300px;
+  display: flex;
+  margin-top: 1em;
+  align-items: center;
+  vertical-align: middle;
+}
+}
 
 /*----
   about
