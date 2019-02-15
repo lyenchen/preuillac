@@ -126,7 +126,7 @@ header .language-selection a {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
 }
-@media (min-width: 400px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 991px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
@@ -145,6 +145,16 @@ header .navbar-default .navbar-nav li a {
   align-items: center;
   vertical-align: middle;
 }
+@media (min-width: 300px) and (max-width: 499px) {
+#home .container .media {
+  height: 300px;
+  display: flex;
+  margin-top: 1em;
+  align-items: center;
+  vertical-align: middle;
+}
+}
+
 
 /*----
   about
