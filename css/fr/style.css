@@ -125,7 +125,7 @@ header .language-selection a {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
 }
-@media (min-width: 1025px) and (max-width: 1240px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
 header {
   /*background: #fff;*/
   padding: 10px 0;
