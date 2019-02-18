@@ -751,11 +751,11 @@ header .navbar-default .navbar-nav li a {
 .address-block td {
   text-align: left;
   vertical-align: text-top;
-  padding: 8px;
+  padding: 3px;
 
 }
 .address-block tr:nth-child(even) {
-  background-color: #3e2a14;
+  color: #c89054;
 }
 .address-block td:nth-child(1) {
   width: 40%;
