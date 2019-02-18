@@ -750,10 +750,18 @@ header .navbar-default .navbar-nav li a {
 }
 .address-block td {
   text-align: left;
-  paddng: 8px;
+  vertical-align: text-top;
+  padding: 8px;
+
 }
 .address-block tr:nth-child(even) {
-  color: #C0C0C0;
+  background-color: #3e2a14;
+}
+.address-block td:nth-child(1) {
+  width: 40%;
+}
+.address-block td:nth-child(2) {
+  width: 60%;
 }
 #phone a {
   color: #FFFFFF;
