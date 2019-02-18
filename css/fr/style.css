@@ -111,9 +111,8 @@ header .navbar-default .navbar-nav li a {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   font-family: 'Cinzel', serif;
-  font-variant: small-caps;
   font-style bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 header .navbar-default .navbar-nav li a:hover {
   color: #E0C187;
@@ -135,7 +134,7 @@ header .navbar-default .navbar-nav li a {
   padding: 5px 5px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  font-size: 16px;
+  font-size: 13px;
 }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -755,6 +754,24 @@ header .navbar-default .navbar-nav li a {
   margin-right: 15px;
   font-size: 20px;
   width: 20px;
+}
+.address-block table {
+  width: 100%;
+}
+.address-block td {
+  text-align: left;
+  vertical-align: text-top;
+  padding: 3px;
+
+}
+.address-block tr:nth-child(even) {
+  color: #E0C187;
+}
+.address-block td:nth-child(1) {
+  width: 40%;
+}
+.address-block td:nth-child(2) {
+  width: 60%;
 }
 #phone a {
   color: #FFFFFF;
